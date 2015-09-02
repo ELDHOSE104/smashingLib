@@ -329,7 +329,7 @@ h1 em,h2 em,h3 em {
 }
 .mini a {
 	display:block;
-	width:50%
+	width:35%
 }
 .mini a:active,.mini a:focus {
 	background-color:transparent
@@ -2836,4 +2836,10 @@ li.tags:after {
 #footer {
 	margin-left:0
 }
+}
+@media (min-width: 800px) and (max-width: 831px) {
+	.channels{
+		margin: -2.5em 2.6% 0 0;
+	}
+
 }
